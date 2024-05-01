@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página sobre Arduino</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="poppins.css">
+</head>
+<body>
+    <header>
+        <h1 class="poppins-bold">Arduino</h1>
+        <nav>
+            <ul class="poppins-regular">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#placas-arduino">Placas Arduino</a></li>
+                <li><a href="#sensores-y-modulos">Sensores y Módulos</a></li>
+                <li><a href="#alimentacion-y-energia">Alimentación y Energía</a></li>
+                <li><a href="#programacion">Programación</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="inicio">
+            <h2 class="poppins-black">Inicio</h2>
+            <p class="poppins-regular">Arduino es una plataforma de hardware de código abierto que se utiliza para crear prototipos de proyectos electrónicos. 
+                <br>Fue diseñada con el objetivo de ser accesible para principiantes en la electrónica y la programación. 
+                Arduino es una <br> herramienta versátil que ha revolucionado el mundo de la electrónica y la programación, 
+                permitiendo a personas de <br> todas las edades y niveles de experiencia llevar a cabo proyectos creativos e innovadores. </p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Arduino_Logo_Registered.svg/1200px-Arduino_Logo_Registered.svg.png" width="900" height="500">
+        </section>
+        
+        <div class="composicion">
+        <section id="placas-arduino">
+            <h2 class="inicio poppins-black">Placas Arduino</h2>
+            <p class="text poppins-regular"> Los módulos de Arduino son componentes electrónicos diseñados para integrarse fácilmente con placas Arduino y expandir sus capacidades. 
+                Estos módulos pueden incluir sensores, actuadores, módulos de comunicación y otros dispositivos especializados. Los módulos se conectan a la placa 
+                Arduino a través de pines de entrada y salida, y a menudo vienen con bibliotecas de software que simplifican su uso. Esto permite a los usuarios 
+                construir una amplia variedad de proyectos electrónicos, desde sistemas de control automatizado hasta dispositivos de monitoreo y más, sin la 
+                necesidad de conocimientos profundos en electrónica.</p>
+        </section>
+
+        <section id="sensores-y-modulos">
+            <h2 class="inicio poppins-black">Sensores y Módulos</h2>
+            <p class="text poppins-regular">Los sensores son componentes clave en proyectos de Arduino, permiten medir diversas variables del entorno. Algunos sensores 
+                comunes incluyen el DHT11 para temperatura y humedad, el PIR para detección de movimiento, el HC-SR04 para medir distancias, 
+                el LDR para captar luz ambiental, el MQ-2 para detectar gases y el BMP180 para presión atmosférica y altitud. Estos sensores 
+                amplían las capacidades de Arduino y son fundamentales en aplicaciones como monitoreo ambiental, 
+                automatización del hogar y robótica, permitiendo la captura de datos precisos y la toma de decisiones en función de ellos.</p>
+        </section>
+        </div>
+
+        <section id="alimentacion-y-energia">
+            <h2 class="inicio poppins-black">Alimentación y Energía</h2>
+            <p class="text poppins-regular">Arduino puede ser alimentado de varias maneras. La forma más común es a través del puerto USB, conectando 
+                la placa a un computador o un adaptador de corriente USB. También se puede alimentar mediante un adaptador de corriente externo conectado 
+                al conector de alimentación de la placa. Otra opción es a través del pin de alimentación VIN, utilizando una fuente de alimentación externa 
+                de 7-12V conectada a este pin. Es importante tener en cuenta las especificaciones de voltaje y corriente de la placa para asegurar una 
+                alimentación correcta y estable, evitando daños en la placa y garantizando el correcto funcionamiento de los proyectos.</p>
+        </section>
+
+        <section id="programacion">
+            <h2 class="inicio poppins-black">Programación</h2>
+            <div class="composicion">
+                <p class="text poppins-regular">El entorno de desarrollo integrado (IDE) de Arduino es una herramienta fundamental para programar las 
+                    placas Arduino de forma sencilla y eficiente. Este entorno proporciona un editor de texto donde se escribe el código en lenguaje C/C++, 
+                    con funciones y librerías específicas de Arduino que simplifican la programación. Además, el IDE incluye un verificador de errores, 
+                    un compilador que convierte el código a lenguaje máquina y un cargador de arranque que envía el programa compilado a la placa a través 
+                    del puerto USB.
+                </p>
+
+                <p class="text poppins-regular">El entorno IDE de Arduino también ofrece funciones para facilitar la depuración del código, como la 
+                    consola serial que permite imprimir mensajes para verificar el funcionamiento del programa en tiempo real. Además, cuenta con una 
+                    amplia variedad de ejemplos y librerías predefinidas que simplifican la implementación de diferentes funciones en los proyectos. 
+                    En resumen, el entorno de programación de Arduino es una herramienta completa y amigable que permite a usuarios de todos los niveles 
+                    desarrollar proyectos electrónicos de forma accesible y efectiva.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p class="poppins-thin-italic">Hecha por: Lautaro Sánchez</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
